@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host_fragment"
+    app:startDestination="@id/navigation_photo">
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.casestudy3.CalendarEvent"
+        android:label="fragment_calendar_event"
+        tools:layout="@layout/fragment_calendar_event" >
+
+        <action
+            android:id="@+id/action_navigation_calendar_to_navigation_photo3"
+            app:destination="@id/navigation_photo" />
+        <action
+            android:id="@+id/action_navigation_calendar_to_navigation_call3"
+            app:destination="@id/navigation_call" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_call"
+        android:name="com.example.casestudy3.PhoneEvent"
+        android:label="fragment_phone_event"
+        tools:layout="@layout/fragment_phone_event" >
+        <action
+            android:id="@+id/action_navigation_call_to_navigation_photo3"
+            app:destination="@id/navigation_photo" />
+        <action
+            android:id="@+id/action_navigation_call_to_navigation_calendar3"
+            app:destination="@id/navigation_calendar" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_photo"
+        android:name="com.example.casestudy3.PhotoEvent"
+        android:label="fragment_photo__event"
+        tools:layout="@layout/fragment_photo__event" >
+        <action
+            android:id="@+id/action_navigation_photo_to_navigation_call3"
+            app:destination="@id/navigation_call" />
+        <action
+            android:id="@+id/action_navigation_photo_to_navigation_calendar3"
+            app:destination="@id/navigation_calendar" />
+    </fragment>
+</navigation>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Case Study 3</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Calendar">Calendar Event</string>
+    <string name="photo_capture">Photo Capture</string>
+    <string name="phone_call">Phone Call</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="create_calendar_event">Create Calendar Event</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_description">Event Description</string>
+    <string name="add_invitees_email">Add Invitees Email</string>
+    <string name="all_day_event">All Day Event</string>
+    <string name="invitees_n">Invitees: \n</string>
+    <string name="public_access">Public Access</string>
+    <string name="private_access">Private Access</string>
+    <string name="event_location">Event Location</string>
+    <string name="private_event">Private Event</string>
+    <string name="date">Date</string>
+    <string name="enter_attendee_email">Enter Attendee Email</string>
+    <string name="add_email_to_email_list">Add Email to Email List</string>
+    <string name="remove_email_from_email_list">Remove Email From Email List</string>
+    <string name="add_event_date">Add Event Date</string>
+    <string name="add_event_start_time">Add Event Start Time</string>
+    <string name="add_event_end_time">Add Event End Time</string>
+    <string name="event_date">Event Date</string>
+    <string name="start_time_">Start Time</string>
+    <string name="end_time_">End Time</string>
+    <string name="attendee_s_list_n">Attendee\'s List: \n</string>
+    <string name="add_event">Add Event</string>
+    <string name="make_phone_call">Make Phone Call</string>
+    <string name="send_sms_message">Send SMS Message</string>
+    <string name="phone_call_and_sms_message">Phone Call and SMS Message</string>
+    <string name="enter_sms_message">Enter SMS Message</string>
+</resources>

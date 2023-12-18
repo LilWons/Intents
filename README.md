@@ -1,4 +1,4 @@
-**Intents Application**
+# **Intents Application**
 
 Simple Android Application developed to demonstrate the use of Intents, Fragments, and Navigation Menus with Jetpack's Navigation component.
 
